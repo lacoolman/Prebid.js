@@ -4,7 +4,7 @@ const {registerBidder} = require('../src/adapters/bidderFactory');
 
 const BIDDER_CODE = 'ad4';
 const DEFAULT_TTL = 300;
-const URL = '//pm.perfmelab.com/prebid';
+const URL = '//prb.perfmelab.com/v1';
 
 function createResponse(response) {
   let bidResponses = [];
